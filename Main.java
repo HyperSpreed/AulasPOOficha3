@@ -29,5 +29,9 @@ public class Main {
         System.out.println("Area: " + areaTriangulo);
 
         System.out.println("Perimetro: " + perimetroTriangulo);
+
+        double altura = triangulo.calculaAlturaTriangulo();
+        
+        System.out.println("A altura do triângulo é: " + altura);
     }
 }

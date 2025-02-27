@@ -50,4 +50,10 @@ public class Triangulo {
         return perimetro;
     }
 
+    public double calculaAlturaTriangulo() {
+        double minY = Math.min(p1.getY(), Math.min(p2.getY(), p3.getY()));
+        double maxY = Math.max(p1.getY(), Math.max(p2.getY(), p3.getY()));
+        return maxY - minY;
+    }
+
 }
